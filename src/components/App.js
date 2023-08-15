@@ -3,12 +3,12 @@ import '../styles/App.css';
 const App = () => {
 
   // do not change the code inside the function clickA
-  const clickA = () =>{
+  const clickA =()=> {
     console.log('Clicked button A')
   }
   return (
     <div id="main">
-      <button id="button-a">Button A</button>
+      <button id="button-a" onClick={this.clickA}>Button A</button>
     </div>
   )
 }
